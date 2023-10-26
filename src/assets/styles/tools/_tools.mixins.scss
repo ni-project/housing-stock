@@ -1,0 +1,27 @@
+
+@mixin full-width($value: block) {
+  display: $value;
+  width: 100%;
+}
+
+@mixin full-wh($value: block) {
+  @include full-width($value);
+
+  height: 100%;
+}
+
+@mixin font($fontSize, $lineHeight, $color, $fontWeight) {
+  font: {
+    size: $fontSize;
+    weight: $fontWeight;
+  }
+
+  color: $color;
+  line-height: $lineHeight;
+}
+
+@mixin text-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

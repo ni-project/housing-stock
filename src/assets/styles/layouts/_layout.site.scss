@@ -1,0 +1,6 @@
+
+#app {
+  @include full-wh(flex);
+
+  flex-direction: column;
+}

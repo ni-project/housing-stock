@@ -1,0 +1,18 @@
+
+* {
+  box-sizing: border-box;
+}
+
+.margin {
+  &-sm {
+    margin-top: 8px;
+  }
+
+  &-md {
+    margin-top: 16px;
+  }
+
+  &-lg {
+    margin-top: 24px;
+  }
+}

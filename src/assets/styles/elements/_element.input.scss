@@ -1,0 +1,8 @@
+
+input {
+  @include text-ellipsis;
+
+  &:focus {
+    outline: none;
+  }
+}
