@@ -1,7 +1,7 @@
 <template>
     <div class="header">
         <div class="header_title">
-            Жилфонд
+            Housing Stock
         </div>
 
         <div>
