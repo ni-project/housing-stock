@@ -1,4 +1,4 @@
-# housing-stock.ru
+# housing-stock
 
 ## Project setup
 ```
